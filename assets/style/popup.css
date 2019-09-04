@@ -1,0 +1,62 @@
+body {
+    padding-top: 12px
+}
+
+pre {
+    background: #f7f7f9
+}
+
+.container {
+    width: 432px;
+    height: auto;
+}
+
+.bs-docs-section {
+    margin-top: 1px;
+}
+
+#header {
+    display: block;
+}
+
+#header h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#content .list-to {
+    text-align: center;
+}
+
+#content .list-to .list-group {
+    margin-bottom: 5px;
+}
+
+#content .page {
+    display: inline-block;
+}
+
+.to-button {
+    display: none;
+    margin-left: 5px;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.to-button:hover {
+    cursor: pointer
+}
+
+.bs-component:hover .to-button {
+    display: block
+}
+
+#footer {
+    margin: 5px 0;
+}
+
+#footer p {
+    clear: left;
+    margin-bottom: 0
+}

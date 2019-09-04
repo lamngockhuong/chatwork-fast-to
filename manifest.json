@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Chatwork Fast TO",
+    "version": "1.0",
+    "default_locale": "en",
+    "description": "Chatwork Fast TO",
+    "icons": {
+        "16": "assets/icon/icon-16.png",
+        "32": "assets/icon/icon-32.png",
+        "48": "assets/icon/icon-48.png",
+        "128": "assets/icon/icon-128.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "assets/icon/icon-16.png",
+            "24": "assets/icon/icon-24.png",
+            "32": "assets/icon/icon-32.png"
+        },
+        "default_title": "Chatwork Fast TO",
+        "default_popup": "page/popup.html"
+    },
+    "author": "Lam Ngoc Khuong <me@ngockhuong.com>",
+    "background": {
+        "scripts": ["assets/js/background.js"],
+        "persistent": false
+    },
+    "options_page": "page/options.html",
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com https://cdnjs.cloudflare.com; object-src 'self'"
+}
